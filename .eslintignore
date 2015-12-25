@@ -1,0 +1,6 @@
+dist/
+coverage/
+.git/
+src/ui/shims/*.js
+coverage/
+

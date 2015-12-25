@@ -1,0 +1,31 @@
+{
+  "name": "spotify-best-of-year",
+  "version": "1.0.0",
+  "description": "Get all of the songs that were released in a given year",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomruttle/spotify-best-of-year.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomruttle/spotify-best-of-year/issues"
+  },
+  "homepage": "https://github.com/tomruttle/spotify-best-of-year#readme",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-preset-es2015-node5": "^1.1.1",
+    "highland": "^2.5.1",
+    "spotify-web-api-node": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1"
+  }
+}

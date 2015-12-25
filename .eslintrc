@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb/core",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "id-length": 0
+  }
+}
