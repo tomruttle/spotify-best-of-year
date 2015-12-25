@@ -8,7 +8,7 @@ const spotifyApi = new SpotifyWebApi(credentials);
 
 const playlist = spotifyApi.clientCredentialsGrant()
   .then((data) => { spotifyApi.setAccessToken(data.body['access_token']); })
-  .then(() => spotifyApi.getPlaylist('musicforants', '0B2xvQtyS1v9wTPoPyJaco'));
+  .then(() => spotifyApi.getPlaylist('thruttle', '7wNGCPkXD4Pwf7hXa2UHoM'));
 
 _(playlist)
   .map((data) => op.get(data, 'body.tracks.items'))
